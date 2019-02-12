@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Toolbar.module.css'
 import Logo from '../../Logo/Logo'
 import NavigationItems from '../NavigationItems/NavigationItems';
+import {Link} from 'react-router-dom';
 
 const toolbar = (props) => {
     return (
@@ -12,10 +13,12 @@ const toolbar = (props) => {
                 <div></div>
             </div>
             <div className={styles.Logo}>
-                <Logo />
+            <Link to='/'>
+            <Logo />
+            </Link>
             </div>
                 <nav className={styles.DekstopOnly}>
-                    <NavigationItems />
+                    <NavigationItems isAuthenticated={props.isAuth}/>
                 </nav>
         </header>
     )
