@@ -42,7 +42,7 @@ class App extends Component {
         <Route path='/checkout' component={asyncCheckout} />
         <Route path='/orders' component={asyncOrders} />
         <Route path='/auth' exact component={asyncAuth} />
-        <Route path='/' component={BurgerBuilder} />
+        <Route path='/' exact component={BurgerBuilder} />
         <Redirect to='/'/>
       </Switch>
     )
