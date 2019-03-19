@@ -1,6 +1,6 @@
 # This is a portfolio project of an application BurgerBuilderApp build entirely in Reactjs.
 
-Main features:
+Main features of project:
 
 - Single page application
 - Initialized with create-react-app
