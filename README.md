@@ -1,4 +1,4 @@
-# This is a portfolio project of an application BurgerBuilderApp build entirely in Reactjs.
+# This is a portfolio project of an application BurgerBuilderApp build entirely in ReactJs.
 
 Main features of project:
 
